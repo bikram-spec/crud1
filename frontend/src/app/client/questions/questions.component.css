@@ -1,0 +1,13 @@
+.questions {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.headers {
+  height: 50px;
+}
+.add-new-branch {
+  position: relative;
+  flex: 1 1 auto;
+  margin-left: 40%;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.grid-container {
+  margin: 20px;
+}
+
+#dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+.boxes {
+  border-radius: 50px;
+}
+.material-icons {
+  float: right;
+  font-size: 80px;
+}
+.material-icons:hover{
+  font-size: 85px;
+}
+.card-number {
+  font-size: 60px;
+  float: left;
+  padding-left: 5px;
+  padding-top: 50px;
+}

@@ -1,0 +1,34 @@
+<div class="grid-container">
+    <mat-grid-list cols="1" rowHeight="5000px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <mat-card class="card-layout">
+                <mat-card-header class="card-header">
+                    <mat-card-title class="card-title">
+                        <h1 class="mat-h1"><i>QPG</i></h1>
+                    </mat-card-title>
+                    <mat-card-subtitle class="card-subtitle">
+                        <h2 class="mat-h2">
+                            Create your QPG Account
+                        </h2>
+                    </mat-card-subtitle>
+                </mat-card-header>
+                    <mat-card-content class="card-content">
+                        <form [formGroup]="signup" (ngSubmit)="onSubmit()" class="form-layout">
+                            <div class="row">
+                                <div class="col">
+                                  <mat-form-field class="full-width">
+                                    <input matInput placeholder="Institue Name" formControlName="institue_name">
+                                  </mat-form-field>
+                                </div>
+                              </div>
+                        </form>
+                    </mat-card-content>
+                    <mat-card-footer class="card-footer">
+                        <i>
+                        Copyright Createed by bikram gauda
+                        </i>
+                    </mat-card-footer>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

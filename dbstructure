@@ -1,0 +1,11 @@
+main:-
+    login(POST):-
+        email:-email
+        password-password
+    signup(POST):-
+        institure name:=String
+        Password:- String;
+        email:- email:-
+    Dashboard(GET):-
+        add project:-
+        observer
